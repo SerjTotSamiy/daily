@@ -1063,8 +1063,13 @@ body {
     width: 120px;
   }
 
+  .main_typeoflife {
+    width: 40%;
+    margin: auto;
+  }
+
   .main_typeoflife_wrapper:after {
-    right: 71%;
+    right: 33%;
   }
 
   .main_cards {
