@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Профиль</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header class="profile__header">
+      <div class="profile__header_top"><a class="profile__header_top-link" href="">Моя Страница</a>
+        <nav class="header_menu">
+          <ul class="header_list">
+            <li class="header_item"><a class="header_link" href="">О нас</a></li>
+            <li class="header_item"><a class="header_link" href="">Каталог ботов</a></li>
+            <li class="header_item"><a class="header_link" href="">FAQ</a></li>
+            <li class="header_item"><a class="header_link" href="profile.html">Поддержка</a></li><a class="header_link" href="profile.html"><img src="img/general/log-out.png"></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="add__bot">
+      <div class="container">
+        <div class="add__bot_grey">
+          <button class="add__bot_button"><img src="img/general/plus.png"><span class="add__bot_span">Добавить бота</span></button>
+          <form class="add__bot_form">
+            <div class="add__bot_form_col"><span class="add__bot_span">Заголовок:</span>
+              <input type="text">
+            </div>
+            <div class="add__bot_form_col"><span class="add__bot_span">Описание:</span>
+              <textarea class="add__bot_textarea"></textarea>
+            </div>
+            <div class="add__bot_form_col"><span class="add__bot_span">Фото</span>
+              <input type="file">
+            </div>
+            <button class="add__bot_send-button">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="add__bot_dark-grey">
+        <button class="add__bot_button"><img src="img/general/plus.png"><span class="add__bot_span">Добавить ссылку</span></button>
+        <form class="add__bot_form">
+          <div class="add__bot_form_col"><span class="add__bot_span">Заголовок:</span>
+            <input type="text">
+          </div>
+          <div class="add__bot_form_col"><span class="add__bot_span">Кнопка:</span>
+            <input type="text">
+          </div>
+          <div class="add__bot_form_col"><span class="add__bot_span">Ссылка:</span>
+            <input type="text">
+          </div>
+          <div class="add__bot_form-wrapper">
+            <select class="add__bot_select" name="add__bot_select">
+              <option value="Не выбрано">Не выбрано</option>
+              <option value="Не выбрано">Не выбрано</option>
+              <option value="Не выбрано">Не выбрано</option>
+              <option value="Не выбрано">Не выбрано</option>
+              <option value="Не выбрано">Не выбрано</option>
+            </select>
+          </div>
+          <button class="add__bot_send-button">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="logo">Лого</div>
+          <ul class="footer_list">
+            <li class="footer_item footer_item-phone"><a class="footer_link" href=" tel: +7-800-800-80-80">+7-800-800-80-80</a></li>
+            <li class="footer_item footer_item-mail"><a class="footer_link" href="mailto: Example@example.ru ">Example@example.ru</a></li>
+          </ul>
+          <ul class="footer_media">
+            <li class="footer_item"><a class="footer_link" href="">Мы в соцсетях:</a></li>
+            <li class="footer_item"><a class="footer_link" href=""><img src="img/general/telegramm.png"></a></li>
+            <li class="footer_item"><a class="footer_link" href=""><img src="img/general/instagramm.png"></a></li>
+            <li class="footer_item"><a class="footer_link" href=""><img src="img/general/fb.png"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/pageB.js"></script>
+    <script src="js/vendor.js"></script>
+  </body>
+</html>
