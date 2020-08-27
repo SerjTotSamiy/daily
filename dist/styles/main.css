@@ -875,11 +875,11 @@ ul {
 }
 
 .footer_item-phone {
-  list-style-image: url("../../../img/general/phone.png");
+  list-style-image: url("../img/general/phone.png");
 }
 
 .footer_item-mail {
-  list-style-image: url("../../../img/general/mail.png");
+  list-style-image: url("../img/general/mail.png");
 }
 
 @font-face {
