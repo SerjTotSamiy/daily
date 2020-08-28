@@ -568,14 +568,16 @@ ul {
 }
 
 .main_typeoflife_wrapper:after {
-  content: url("../../../img/general/select-arrow.png");
+  content: "";
   display: block;
   position: absolute;
   top: 50%;
   right: 10%;
-  width: 10px;
-  height: auto;
+  width: 30px;
+  height: 18px;
   border-radius: 20px;
+  background-image: url("../img/general/select-arrow.png");
+  background-size: cover;
 }
 
 .main_heading3 {
@@ -830,14 +832,16 @@ ul {
 }
 
 .add__bot_form-wrapper:after {
-  content: url("../../../img/general/select-arrow.png");
+  content: "";
   display: block;
   position: absolute;
   top: 40%;
   right: 10%;
-  width: 10px;
-  height: auto;
+  width: 25px;
+  height: 15px;
   border-radius: 20px;
+  background-image: url("../img/general/select-arrow.png");
+  background-size: cover;
 }
 
 .add__bot_select {
@@ -1082,29 +1086,17 @@ body {
   .header_link {
     width: 120px;
   }
-
-  .add__bot_form-wrapper:after {
-    right: 71%;
-  }
 }
 
 @media screen and (min-width: 320.99px) and (max-width: 375px) {
   .header_bot {
     height: 17vh;
   }
-
-  .add__bot_form-wrapper:after {
-    right: 23%;
-  }
 }
 
 @media screen and (min-width: 375.99px) and (max-width: 425px) {
   .header_bot {
     height: 19vh;
-  }
-
-  .add__bot_form-wrapper:after {
-    right: 38%;
   }
 }
 
@@ -1136,36 +1128,6 @@ body {
 @media screen and (min-width: 575.99px) and (max-width: 900px) {
   .main_cards {
     grid-template-columns: auto auto;
-  }
-}
-
-@media screen and (min-width: 425.99px) and (max-width: 490px) {
-  .add__bot_form-wrapper:after {
-    right: 41%;
-  }
-}
-
-@media screen and (min-width: 490.99px) and (max-width: 575px) {
-  .add__bot_form-wrapper:after {
-    right: 50%;
-  }
-}
-
-@media screen and (min-width: 575.99px) and (max-width: 650px) {
-  .add__bot_form-wrapper:after {
-    right: 52%;
-  }
-}
-
-@media screen and (min-width: 650.99px) and (max-width: 770px) {
-  .add__bot_form-wrapper:after {
-    right: 60%;
-  }
-}
-
-@media screen and (min-width: 770.99px) and (max-width: 900px) {
-  .add__bot_form-wrapper:after {
-    right: 60%;
   }
 }
 
