@@ -408,6 +408,10 @@ ul {
   margin-top: 30px;
 }
 
+.header_top.active {
+  right: 0;
+}
+
 .header_list {
   display: flex;
   justify-content: space-between;
@@ -470,6 +474,7 @@ ul {
   width: 100%;
   background-image: url("../img/general/bot.png");
   background-size: cover;
+  background-repeat: no-repeat;
   height: 60vh;
 }
 
@@ -478,6 +483,25 @@ ul {
   color: #6d6969;
   text-align: justify;
   padding: 0 45px;
+}
+
+.header_hamburger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #c4c4c4;
+}
+
+.header_hamburger_line {
+  height: 8px;
+  background-color: #000000;
+  transition: all ease .3s;
+}
+
+.header_hamburger_line:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .logo {
@@ -929,6 +953,12 @@ body {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .header_hamburger {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .main_content {
     display: flex;
@@ -957,6 +987,12 @@ body {
 @media screen and (max-width: 900px) {
   .header_top {
     flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    background-color: #000000;
+    right: -100%;
+    width: 80%;
+    padding: 0;
   }
 
   .header_list {
@@ -1119,7 +1155,7 @@ body {
 
 @media screen and (min-width: 575.99px) and (max-width: 1440px) {
   .main_typeoflife {
-    width: 40%;
+    width: auto;
     height: auto;
     margin: auto;
   }
